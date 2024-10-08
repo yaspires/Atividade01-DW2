@@ -1,0 +1,18 @@
+<%- include ('partials/header.ejs')%> <%- include ('partials/navbar.ejs')%>
+
+<p>pedidos</p>
+<hr />
+<table class="table table-light table-striped">
+  <tr>
+    <th>Número do pedido:</th>
+    <th>Valor:</th>
+  </tr>
+
+  <% pedidos.forEach((pedidos) =>{%>
+  <tr>
+    <td><%= pedidos.nmrpedido %></td>
+    <td><%= pedidos.valor %></td>
+  </tr>
+  <%})%>
+</table>
+<%- include ('partials/footer.ejs')%>

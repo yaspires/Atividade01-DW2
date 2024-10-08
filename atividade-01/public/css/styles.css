@@ -1,0 +1,17 @@
+#navbarNav{
+    
+}
+
+.index{
+    background-image: url(/imgs/img01.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+td{
+    height: 40px;
+}
+
+th{
+    height: 50px;
+}

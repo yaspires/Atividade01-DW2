@@ -1,6 +1,21 @@
-<%- include ('partials/navbar.ejs')%>
-<%- include ('partials/header.ejs')%>
+ <%- include ('partials/header.ejs')%> <%- include ('partials/navbar.ejs')%>
 
-    <p>produtos</p>
+<p>produtos</p>
+<hr />
+<table class="table table-light table-striped">
+  <tr>
+    <th>Produto:</th>
+    <th>Preço:</th>
+    <th>Categoria:</th>
+  </tr>
+
+  <% produtos.forEach((produtos) =>{%>
+  <tr>
+    <td><%= produtos.produto %></td>
+    <td><%= produtos.preco %></td>
+    <td><%= produtos.categoria %></td>
+  </tr>
+  <%})%>
+</table>
 
 <%- include ('partials/footer.ejs')%>

@@ -4,7 +4,8 @@
   "description": "atividade 1 de dw2",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx node index.js"
   },
   "author": "yasmin pires",
   "license": "ISC",
